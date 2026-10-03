@@ -91,21 +91,26 @@ public class ScreenMetrics {
 
 ### Задания для закрепления
 
-1. **Конвертер плотности (dp в px):** 
+1. **Конвертер плотности (dp в px):**
+   
 public class Main 
+
 {
+
     public static void main(String[] args) 
     {
+    
         float dp = 100;
+        
         float dpi = 2.0f;
-
+        
         float px = dp * dpi;
 
         System.out.println(px);
     }
 }
 
-2. **Парсинг таймстемпа:** 
+3. **Парсинг таймстемпа:** 
 public class Main 
 {
     public static void main(String[] args) 
@@ -123,7 +128,7 @@ public class Main
     }
 }
 
-3. **Расчет расхода батареи:**
+4. **Расчет расхода батареи:**
 public class Main 
 {
     public static void main(String[] args) 
@@ -140,7 +145,7 @@ public class Main
     }
 }
 
-4. **Валидатор диапазона координат:** 
+5. **Валидатор диапазона координат:** 
 public class Main {
     public static void main(String[] args) 
     {
@@ -154,7 +159,7 @@ public class Main {
     }
 }
 
-5. **Побитовые флаги разрешений:** 
+6. **Побитовые флаги разрешений:** 
 public class Main {
     public static void main(String[] args) 
     {
